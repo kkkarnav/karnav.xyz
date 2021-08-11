@@ -534,3 +534,14 @@ ul {
   .notes_text:hover {
       color: rgb(37, 139, 255);
   }
+
+.landing {
+    text-align: left;
+}
+
+@media (max-width: 576px) {
+
+    .landing {
+        text-align: center;
+    }
+}
