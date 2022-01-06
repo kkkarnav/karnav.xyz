@@ -428,7 +428,7 @@ ul {
 }
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 700px) {
   
     .talk_list a {
         padding-left: 0px;
@@ -545,3 +545,20 @@ ul {
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 700px) {
+    .mobile_center {
+        padding-left: 10%;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .mobile_center_50 {
+        padding-left: 30%;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+
