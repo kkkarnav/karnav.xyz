@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Course Reviews</title>
+    <title>Course Reviews Spring 2022</title>
     <style>
       html, body {
         min-height: 100%;
@@ -146,11 +146,14 @@
     <div class="testbox" style="padding: 5vw;">
       <form name="reviews" netlify action="/pages/success">
 
+        <h1 style="text-align: center; color: white;">Course Reviews (Spring 2022)</h1>
+        <br><br>
+
         <h1 style="text-align: center;">Select your course</h1>
         <br>
         <h3>Department</h3>
         <select name="department" id="departments" onchange="local_choose_name(this.value)" autocomplete="off">
-          <option id="default_dep" value="default" disabled selected>*Please Select*</option>
+          <option id="default_dep" value="default" selected>*Please Select*</option>
           <option value="FC">FC</option>
           <option value="CT">ICT</option>
           <option value="CPA">CC</option>
@@ -177,12 +180,12 @@
 
         <h3>Course</h3>
         <select name="course" id="course_names" onchange="local_choose_prof(this.value)">
-          <option id="default_course" value="default" disabled selected>*Please Select Department*</option>
+          <option id="default_course" value="default" selected>*Please Select Department*</option>
         </select>
 
         <h3>Professor</h3>
         <select name="prof" id="prof_names">
-          <option id="default_prof" value="default" disabled selected>*Please Select Course*</option>
+          <option id="default_prof" value="default" selected>*Please Select Course*</option>
         </select>
 
         <br><br><br>
