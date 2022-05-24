@@ -149,7 +149,7 @@
         <h1 style="text-align: center;">Select your course</h1>
         <br>
         <h3>Department</h3>
-        <select id="departments" onchange="local_choose_name(this.value)" autocomplete="off">
+        <select name="department" id="departments" onchange="local_choose_name(this.value)" autocomplete="off">
           <option id="default_dep" value="default" selected>*Please Select*</option>
           <option value="FC">FC</option>
           <option value="CT">ICT</option>
@@ -176,12 +176,12 @@
         </select>
 
         <h3>Course</h3>
-        <select id="course_names" onchange="local_choose_prof(this.value)">
+        <select name="course" id="course_names" onchange="local_choose_prof(this.value)">
           <option id="default_course" value="default" selected>*Please Select Department*</option>
         </select>
 
         <h3>Professor</h3>
-        <select id="prof_names">
+        <select name="prof" id="prof_names">
           <option id="default_prof" value="default" selected>*Please Select Course*</option>
         </select>
 
