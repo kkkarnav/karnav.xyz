@@ -114,12 +114,14 @@ let local_choose_semester = async (department) => {
 
 let local_choose_name = async (semester) => {
 
+  let selected_department = document.getElementById("departments").value;
+
   let default_option = document.getElementById("default_course");
   default_option.text = "*Please Wait*";
 
   let relev_courses = [];
   for (let course of data["data"]) {
-    if (course.semester == semester) {
+    if (course.semester == semester && course.department == selected_department) {
       relev_courses.push(course);
     }
   }
