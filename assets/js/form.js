@@ -1782,10 +1782,6 @@ let data = {
             "faculty":{
                 "professors":[
                     {
-                        "name":"Rajendra Bhatia",
-                        "email":"rajendra.bhatia@ashoka.edu.in"
-                    },
-                    {
                         "name":"Sourav Ghosh",
                         "email":"sourav.ghosh@ashoka.edu.in"
                     }
