@@ -77,8 +77,6 @@ body {
     padding:5px;
 }
 .about_title_track{
-    padding:10px 10px 10px 0px;
-    margin:8px 8px 8px 0px;
     font-size:26px;
 }
 
@@ -183,8 +181,8 @@ body {
 .title
 {
     font-family: 'JetBrainsMono', monospace;
-    margin-top:5px;
-    font-weight:150;
+    margin-top: 5px;
+    font-weight: 150;
 }
 .description
 {
@@ -268,6 +266,41 @@ Footer
 }
 
 */
+
+/* ==========================================================================
+Tooltip
+========================================================================== */
+
+.tooltip {
+    position: relative;
+}
+
+.tooltips:before {
+    content: attr(data-text); /* here's the magic */
+    position: absolute;
+    
+    /* vertically center */
+    top: 50%;
+    transform:translateY(-50%);
+    
+    /* move to right */
+    left: 25%;
+    
+    /* basic styles */
+    padding: 4px;
+    background:#111111;
+    color: #fff;
+    text-align:center;
+  
+    display:none; /* hide by default */
+
+    font-size: 10px;
+    line-height: 1.1;
+}
+
+.tooltips:hover:before {
+    display:block;
+}
 
 
 /* ==========================================================================
@@ -424,6 +457,31 @@ ul {
 }
 
 .social_list li:hover, .social_list li:active {
+    color: rgb(253, 113, 196);
+}
+
+.stack_list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-top: 10px;
+}
+
+.stack_list li {
+    position: relative;
+    left: -3px;
+    margin-right: 15px;
+    font-size: 60px;
+    color: rgb(37, 139, 255);
+    transition: all 0.3s ease;
+    padding-bottom: 12px;
+    /* padding: 5px;
+    border: 1px solid red;
+    border-radius: 50px; */
+}
+
+.stack_list li:hover, .stack_list li:active {
     color: rgb(253, 113, 196);
 }
 
