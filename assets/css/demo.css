@@ -440,7 +440,6 @@ ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 25px;
     margin-top: 10px;
 }
 
@@ -464,7 +463,6 @@ ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 25px;
     margin-top: 10px;
 }
 
@@ -483,6 +481,25 @@ ul {
 
 .stack_list li:hover, .stack_list li:active {
     color: rgb(253, 113, 196);
+}
+
+.card_stack_list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_stack_list li {
+    position: relative;
+    left: -3px;
+    margin-right: 15px;
+    font-size: 16px;
+    color: rgb(220, 220, 220);
+    transition: all 0.3s ease;
+}
+
+.card_stack_list li:hover, .card_stack_list li:active {
+    color: rgb(37, 139, 255);
 }
 
 
@@ -607,13 +624,6 @@ ul {
 @media only screen and (max-width: 700px) {
     .mobile_center {
         padding-left: 10%;
-        text-align: center;
-        align-items: center;
-        align-content: center;
-    }
-
-    .mobile_center_50 {
-        padding-left: 30%;
         text-align: center;
         align-items: center;
         align-content: center;
