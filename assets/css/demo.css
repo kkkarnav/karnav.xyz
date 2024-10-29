@@ -1,4 +1,23 @@
-/* ==========================================================================
+.mobile-content {
+    display: none;
+}
+
+.mobile-content .main-article p {
+    font-size: 20% !important;
+}
+  
+/* Show mobile content on smaller screens (e.g., up to 768px) */
+@media (max-width: 768px) {
+    .desktop-content {
+      display: none;
+    }
+    .mobile-content {
+      display: block;
+    }
+  }
+
+
+  /* ==========================================================================
 Header
 ========================================================================== */
 #social_link
