@@ -218,10 +218,6 @@ body {
     color:rgb(253, 135, 204);
 }
 
-.red {
-    color: #762a2f;
-}
-
 /* ==========================================================================
 Footer
 ========================================================================== */
@@ -694,3 +690,21 @@ article {
     padding: 3rem 6rem;
     font-size: 1.5rem;
   }
+
+.red {
+    color: #c4122f;
+    font-size: 110%;
+}
+
+.red_link:hover {
+    color: #cccccc;
+}
+
+.main_article {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.main_article p {
+    margin-bottom: 2%;
+}
