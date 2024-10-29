@@ -717,7 +717,21 @@ article {
     background-repeat: no-repeat;
 }
 
-  .sticky-thing p {
+.img-9 {
+    background-image: url("../../assets/article/edict8.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-10 {
+    background-image: url("../../assets/article/edict9.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sticky-thing p {
     font-size: 8rem;
     font-weight: 100;
     color: #eeeeee;
