@@ -647,13 +647,6 @@ article {
     position: sticky;
     width: 100%;
     margin: 0;
-    background-image: url("../../assets/img/bg2.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-    -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-    -webkit-filter: grayscale(100%);
     filter: gray;
     z-index: 0;
     top: 0vh;
@@ -663,6 +656,37 @@ article {
     align-items: center;
     justify-content: center;
   }
+
+.img-1 {
+    background-image: url("../../assets/img/bg2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(100%);
+}
+
+.img-2 {
+    background-image: url("../../assets/article/edict1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-3 {
+    background-image: url("../../assets/article/edict2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-4 {
+    background-image: url("../../assets/article/edict3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
   .sticky-thing p {
     font-size: 8rem;
@@ -704,7 +728,6 @@ article {
     padding-left: 10%;
     padding-right: 10%;
 }
-
 .main_article p {
     margin-bottom: 2%;
 }
