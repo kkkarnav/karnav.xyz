@@ -696,6 +696,27 @@ article {
     background-repeat: no-repeat;
 }
 
+.img-6 {
+    background-image: url("../../assets/article/edict5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-7 {
+    background-image: url("../../assets/article/edict6.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-8 {
+    background-image: url("../../assets/article/edict7.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
   .sticky-thing p {
     font-size: 8rem;
     font-weight: 100;
