@@ -63,6 +63,10 @@ body {
     display: inline-block;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Garamond', serif !important;
+}
+
 @media (min-width: 600px) and (orientation:landscape) {
 
     .nomob {
