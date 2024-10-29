@@ -1,17 +1,14 @@
 /* ==========================================================================
 Header
 ========================================================================== */
-body{
-    y-overflow:hidden;
-}
 #social_link
 {
-    color:rgb(52, 109, 241);
+    color:#762a2f;
 }
 
 #social_button
 {
-    color:rgb(89, 150, 240);
+    color:#762a2f;
     font-size:18px;
     padding-right:18px;
     padding-top:15px;
@@ -35,7 +32,7 @@ body {
     margin-right: 0;
     max-width: 102%;
     overflow-x: hidden;
-    background: #0a0b0f;
+    background-color: #000022;
     font-family: 'JetBrainsMono', monospace;
 }
 
@@ -63,6 +60,7 @@ body {
     margin-left: 0px;
     margin-top: -80px;
     right: 0;
+    background-color: #000022;
 }
 
 .tag_title,
@@ -218,6 +216,10 @@ body {
 
 #details_redirect:hover{
     color:rgb(253, 135, 204);
+}
+
+.red {
+    color: #762a2f;
 }
 
 /* ==========================================================================
