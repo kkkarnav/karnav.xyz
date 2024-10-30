@@ -782,8 +782,11 @@ article {
   }
 
 .red {
+    color: #d14743;
+}
+
+.red_link {
     color: #c4122f;
-    font-size: 110%;
 }
 
 .red_link:hover {
