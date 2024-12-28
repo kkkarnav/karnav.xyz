@@ -37,9 +37,8 @@ Header
 .col-lg-2{
   padding:10px;
 }
-
 .col-half-offset{
-    margin-left:4.166666667%
+    margin-left: 4.166666667%
 }
 
 @font-face {
@@ -51,7 +50,13 @@ body {
     margin-right: 0;
     max-width: 102%;
     overflow-x: hidden;
-    background-color: #000022;
+    background-color: #000000;
+}
+
+.mono * {
+    font-family: 'JetBrainsMono', monospace !important;
+}
+.garamond * {
     font-family: 'Garamond', serif !important;
 }
 
@@ -61,10 +66,6 @@ body {
 
 .nodesk {
     display: inline-block;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Garamond', serif !important;
 }
 
 @media (min-width: 600px) and (orientation:landscape) {
@@ -83,13 +84,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0px;
     margin-top: -80px;
     right: 0;
-    background-color: #000022;
+    background-color: #000000;
+}
+
+.background_blue {
+    background-color: #000022 !important;
 }
 
 .tag_title,
 .tag_details {
     color: rgb(90, 90, 90);
-    font-family: 'Garamond', serif !important;
     margin-top:5px;
 
 }
@@ -133,7 +137,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
     color: rgb(83, 109, 254);
-    font-family: 'Garamond', serif !important;
     font-weight: 500;
     font-size: 16px;
     vertical-align: middle;
@@ -201,14 +204,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .title
 {
-    font-family: 'Garamond', serif !important;
     margin-top: 5px;
     font-weight: 150;
 }
 .description
 {
     color: #f0f0f0;
-    font-family: 'Garamond', serif !important;
 
 }
 
@@ -244,49 +245,144 @@ h1, h2, h3, h4, h5, h6 {
 /* ==========================================================================
 Footer
 ========================================================================== */
-/*
-.page-footer {
-    font-size: 40px;
-    padding-top: 20px;
-    color: #fff;
-    background-color: rgb(70, 70, 70);
-}
 
-.page-footer li a i,
-.page-footer1 li a i {
-
-    color: white;
-    background-color: rgb(83, 109, 254);
-    padding: 10px;
-    border-radius: 50%;
+#footer {
+    background-color: #000000;
+    margin-top: 50px;
+  }
+  
+  #footer .container {
+    text-align: left;
+    display: block;
+    border: none;
+  }
+  
+  #footer .container {
+    padding-top: 10px;
+  }
+  
+  #footer a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #footer .fa {
     font-size: 20px;
-    box-shadow: 0 6px 8px 1px rgba(0, 0, 0, .18);
-}
-
-
-.footer-container {
-    width: 100%;
-}
-
-.page-footer {
-    text-align: left;
-    font-size: 40px;
-    padding-top: 20px;
-    padding-left: 10%;
-    color: #fff;
-    background-color: rgb(70, 70, 70);
-}
-
-.page-footer1 {
-    text-align: left;
-    padding-left: 10%;
-    font-size: 40px;
-    padding-top: 20px;
-    color: #fff;
-    background-color: rgb(50, 50, 50);
-}
-
-*/
+    margin-left: 10px;
+  }
+  
+  #footer span {
+    margin: 0px 50px 0px 0px;
+  }
+  
+  #footer a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #footer .share-social {
+    display: inline-block;
+    margin-left: -5px;
+  }
+  
+  #footer .share-social span {
+    font-size: 16px;
+  }
+  
+  #footer p a:link {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  #footer span b:first-child {
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  #footer img {
+    height: 24px;
+    width: auto;
+  }
+  
+  #footer .col-lg-9 {
+    text-align: right;
+  }
+  
+  #social_button {
+    padding-top: 5px;
+    font-weight: 600;
+  }
+  
+  #footer #top-button {
+    position: relative;
+    float: right;
+    right: 0px;
+    padding: 25px 25px 22.5px 20px;
+  
+    margin: -6px 0px 0px 0px;
+    color: inherit;
+    z-index: 999;
+  }
+  
+  #footer .hide-bar {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .coming-soon {
+    padding-top: 15%;
+    padding-bottom: 10%;
+  }
+  
+  @media (max-width: 992px) {
+    #footer .col-lg-9 {
+      text-align: left;
+    }
+  
+    #footer .footer-details {
+      padding-bottom: 15px;
+    }
+  
+    #footer .share-social span {
+      font-size: 12px;
+    }
+  
+    #footer .fa {
+      font-size: 16px;
+    }
+  
+    #footer #top-button {
+      padding: 63px 20px 57px 20px;
+      margin-top: -6.8px;
+    }
+  
+    #footer #top-button .fa {
+      font-size: 20px;
+    }
+  
+    #footer .copyright {
+      padding-top: 10px;
+    }
+  
+    #footer .hide-bar {
+      visibility: hidden;
+    }
+  
+    #footer #dev-credits {
+      display: block;
+      padding-top: 5px;
+    }
+  
+    .coming-soon {
+      padding-top: 35%;
+      padding-bottom: 20%;
+    }
+  }
+  
+  #footer i {
+    font-size: 18px;
+  }
+  
 
 /* ==========================================================================
 Tooltip
@@ -388,7 +484,6 @@ ul {
     text-align:left;
     font-size:20px;
     line-height:1.6;
-    font-family: 'Garamond', serif !important;
 }
 
 
@@ -576,7 +671,6 @@ ul {
   .project_link {
       color: white;
       font-weight: 600;
-      font-family: 'Garamond', serif !important;
       padding: 6px 10px 6px 15px;
       background-color: #0a0b0f;
       border-radius: 5px;
@@ -796,6 +890,7 @@ article {
 .main_article {
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 5%;
 }
 .main_article p {
     margin-bottom: 4%;
@@ -804,4 +899,17 @@ article {
 }
 .main-article h3 {
     margin-bottom: 5%;
+}
+
+.container-page{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.custom-horizontal-rule{
+    border: 1px solid rgba(247,247,247);
+}
+
+.no-padding{
+    padding: 0px;
 }
