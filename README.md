@@ -3,4 +3,4 @@
 
 Personal website, material kit and boostrap
 
-Last updated: December 28, 2024
+Last updated: March 20, 2025
