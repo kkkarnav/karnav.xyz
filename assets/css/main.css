@@ -14,9 +14,9 @@
     .mobile-content {
       display: block;
     }
-  }
+}
 
-  /* ==========================================================================
+/* ==========================================================================
 Header
 ========================================================================== */
 #social_link
@@ -40,11 +40,6 @@ Header
     margin-left: 4.166666667%
 }
 
-/*
-light blue: #81a8c4;
-bright blue: #5596e0;
-*/
-
 @font-face {
   font-family: "JetBrainsMono";
   src: url("./JetBrainsMono-Regular.woff2") format('woff2');
@@ -54,7 +49,7 @@ body {
     margin-right: 0;
     max-width: 102%;
     overflow-x: hidden;
-    background-color: #000000;
+    background-color: #0a0b0f;
 }
 
 .mono * {
@@ -76,6 +71,39 @@ body {
     font-family: "Font Awesome 6 Brands" !important;
 }
 
+.main {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -80px;
+    right: 0;
+}
+
+.main .container {
+    padding-top: 120px !important;
+}
+
+.landing {
+    text-align: left;
+}
+
+@media (max-width: 576px) {
+
+    .landing {
+        text-align: center;
+    }
+}
+
+.landing .title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.landing .description {
+    font-size: 1.1rem;
+    line-height: 1.65em;
+    margin-bottom: 15px;
+}
+
 .nomob {
     display: none;
 }
@@ -93,14 +121,6 @@ body {
     .nodesk {
         display: none;
     }
-}
-
-.main {
-    width: 100%;
-    margin-left: 0px;
-    margin-top: -80px;
-    right: 0;
-    background-color: #000000;
 }
 
 .background_blue {
@@ -169,8 +189,6 @@ body {
     padding-right: 11px;
 }
 
-
-
 .main-raised {
     margin-left: 0px;
     margin-right: 0px;
@@ -224,10 +242,10 @@ body {
     margin-top: 5px;
     font-weight: 150;
 }
+
 .description
 {
     color: #f0f0f0;
-
 }
 
 .icon
@@ -264,24 +282,26 @@ Footer
 ========================================================================== */
 
 #footer {
-    background-color: #000000;
-    margin-top: 50px;
-  }
-  
-  #footer .container {
+    background-color: #0a0b0f;
     text-align: left;
     display: block;
     border: none;
-  }
+}
+
+#footer .container {
+    padding: 20px 5% 2% 5%;
+}
+
+@media (max-width: 768px) {
+    #footer .container {
+        padding: 8% 10% 8% 10%;
+    }
+}
+
   
-  #footer .container {
-    padding-top: 10px;
-  }
-  
-  #footer a:link {
+#footer a:link {
     text-decoration: none;
-    color: inherit;
-  }
+}
   
   #footer .fa {
     font-size: 20px;
@@ -455,6 +475,7 @@ Other color edits
     padding-right: 18px;
     padding-left: 18px;
 }
+
 .blue_text {
     color: #5596e0;
 }
@@ -586,13 +607,16 @@ ul {
     font-size: 27px;
     color: #5596e0;
     transition: all 0.3s ease;
-    /* padding: 5px;
-    border: 1px solid red;
-    border-radius: 50px; */
 }
 
 .social_list li:hover, .social_list li:active {
     color: rgb(253, 113, 196);
+}
+
+@media (max-width: 700px) {
+    .social_list {
+        justify-content: center;
+    }
 }
 
 .stack_list {
@@ -610,9 +634,6 @@ ul {
     color: #5596e0;
     transition: all 0.3s ease;
     padding-bottom: 12px;
-    /* padding: 5px;
-    border: 1px solid red;
-    border-radius: 50px; */
 }
 
 .stack_list li:hover, .stack_list li:active {
@@ -744,26 +765,6 @@ ul {
   .notes_text:hover {
       color: #5596e0;
   }
-
-.landing {
-    text-align: left;
-}
-
-@media (max-width: 576px) {
-
-    .landing {
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .mobile_center {
-        padding-left: 10%;
-        text-align: center;
-        align-items: center;
-        align-content: center;
-    }
-}
 
 /*article css*/
 #scrolly {
