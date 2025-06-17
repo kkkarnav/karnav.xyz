@@ -19,26 +19,6 @@
 /* ==========================================================================
 Header
 ========================================================================== */
-#social_link
-{
-    color:#762a2f;
-}
-
-#social_button
-{
-    color:#762a2f;
-    font-size:18px;
-    padding-right:18px;
-    padding-top:15px;
-    margin:5px;
-}
-
-.col-lg-2{
-  padding:10px;
-}
-.col-half-offset{
-    margin-left: 4.166666667%
-}
 
 @font-face {
   font-family: "JetBrainsMono";
@@ -127,16 +107,6 @@ body {
     background-color: #000022 !important;
 }
 
-.tag_title,
-.tag_details {
-    color: rgb(90, 90, 90);
-    margin-top:5px;
-
-}
-.tag_details
-{
-    padding:5px;
-}
 .about_title_track{
     font-size: 26px;
     color: #5596e0;
@@ -198,19 +168,6 @@ body {
     color: #f0f0f0;
 }
 
-#footie {
-    color: rgb(210, 210, 210);
-    font-size: 20px;
-    padding: 5px;
-    margin-left: 10px;
-}
-
-#heart {
-    color: rgb(250, 36, 5);
-    padding: 3px;
-}
-
-
 .navbar.fixed-top {
     border-radius: 0;
     padding: 0 !important;
@@ -259,11 +216,6 @@ body {
     padding-left:16px;
     padding-right:16px;
 
-}
-
-#mobile 
-{
-    background: rgb(65, 67, 70);
 }
 
 #details_redirect
@@ -456,26 +408,6 @@ Tooltip
     display:block;
 }
 
-
-/* ==========================================================================
-Other color edits
-========================================================================== */
-
-#buttons {
-    background-color: rgb(52, 109, 241);
-    border-radius: 2px;
-}
-
-.texter1 {
-    color: white;
-    background-color: rgb(0, 102, 255);
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 3px;
-    padding-right: 18px;
-    padding-left: 18px;
-}
-
 .blue_text {
     color: #5596e0;
 }
@@ -488,45 +420,13 @@ Other color edits
     color: #5596e0 !important;
 }
 
-#green_text {
-    color: rgb(252, 189, 0);
-}
-
-#orange_text {
-    color: rgb(252, 189, 0);
-}
-
-@media (max-width: 992px){
-    #sectionsNav{
-        height: 65px;
-    }
-}
-
-
-
 /* ==========================================================================
 Other Pages
 ========================================================================== */
-.header-icon-text {
-    top: 6px;
-    position: relative;
-}
 
 ul {
     padding-left: unset;
 }
-
-
-.textblock
-{
-    width:85%;
-    max-width: 800px;
-    margin:auto;
-    text-align:left;
-    font-size:20px;
-    line-height:1.6;
-}
-
 
 #section_holder
 {
@@ -563,24 +463,6 @@ ul {
     margin-bottom: 15px;
     object-fit: cover;
     border-radius: 50%;
-}
-
-.profile_badge {
-    width: 40px;
-    height:40px;
-    border-radius: 50px;
-    background-color: white;
-    color: rgb(253, 135, 204);
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: -70px;
-    left: 65%;
-}
-
-.profile_badge i {
-    font-size: 22px;
 }
 
 .highlight_text {
@@ -696,19 +578,6 @@ ul {
     border-radius: 50px;
   }
 
-
-  .heart_red {
-      color: rgb(255, 109, 72);
-  }
-
-  .js_yellow {
-      color: rgb(255, 230, 0);
-  }
-
-  .cookie_brown {
-      color: rgb(172, 103, 46);
-  }
-
   .project_link {
       color: white;
       font-weight: 600;
@@ -731,11 +600,6 @@ ul {
 
   .blog_list {
     border-left: 1px solid rgb(19, 30, 49);
-  }
-
-  .float_right {
-      position: relative;
-      top: -50px;
   }
 
   #project_list {
