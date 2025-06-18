@@ -2,6 +2,7 @@
     --bg-color: #1a1d28;
     --highlight: #5da5e2;
     --white: #f0f0f0;
+    --pink: #fd87cc;
 }
 
 .mobile-content {
@@ -70,7 +71,7 @@ Landing Page
 }
 
 .main .container {
-    padding-top: 120px !important;
+    padding-top: 120px;
 }
 
 .landing {
@@ -96,11 +97,6 @@ Landing Page
 
 .background_blue {
     background-color: #000022 !important;
-}
-
-.about_title_track{
-    font-size: 26px;
-    color: var(--highlight);
 }
 
 .nav-link{
@@ -140,13 +136,103 @@ Social Icons
 }
 
 .social_list li:hover, .social_list li:active {
-    color: rgb(253, 113, 196);
+    color: var(--pink)
 }
 
 @media (max-width: 768px) {
     .social_list {
         justify-content: center;
     }
+}
+
+
+/* ==========================================================================
+Stack Icons
+========================================================================== */
+
+.stack {
+    position: relative;
+    top: -50px;
+}
+
+.stack_list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.stack_list li {
+    position: relative;
+    left: -3px;
+    margin-right: 15px;
+    font-size: 60px;
+    color: var(--highlight);
+    transition: all 0.3s ease;
+    padding-bottom: 12px;
+}
+
+.stack_list li:hover, .stack_list li:active {
+    color: var(--pink);
+}
+
+
+/* ==========================================================================
+Project Cards
+========================================================================== */
+
+.card {
+    padding-top: 0;
+}
+
+.card_content {
+    width: 80%;
+    margin:  10px auto;
+}
+
+.card_title{
+    font-size: 1.5em;
+    color: var(--highlight);
+}
+
+.card_stack_list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_stack_list li {
+    position: relative;
+    left: -3px;
+    margin-right: 15px;
+    font-size: 16px;
+    color: rgb(220, 220, 220);
+    transition: all 0.3s ease;
+}
+
+.card_stack_list li:hover, .card_stack_list li:active {
+    color: var(--highlight);
+}
+
+.project_link {
+    color: var(--white);
+    font-weight: 600;
+    padding: 6px 10px 6px 15px;
+    background-color: #0a0b0f;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    position: relative;
+    bottom: -25px;
+}
+
+.project_link i {
+    font-size: 16px;
+}
+
+.project_link:hover, .project_link:active {
+    background-color: #0a1327;
+    color: var(--white)
 }
 
 
@@ -175,9 +261,37 @@ ul {
 }
 
 .talk_list a:hover, .talk_list a:active{
-    border-left: 2px solid rgb(253, 113, 196);
+    border-left: 2px solid var(--pink);
     border-bottom: 2px solid transparent;
 }
+
+.go_right {
+    float: right;
+    font-size: 11px;
+    border-bottom: 2px solid var(--pink);
+}
+
+@media (max-width: 768px) {
+  
+    .talk_list {
+        border: none;
+    }
+    
+    .talk_list a {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .talk_list a:hover, .talk_list a:active{
+        border-left: 2px solid transparent;
+        border-bottom: 2px solid transparent;
+    }
+
+    .img-dp {
+        margin-top: -20px;
+    }
+}
+
 
 /* ==========================================================================
 Footer
@@ -258,17 +372,12 @@ Tooltip
     color: var(--highlight);
 }
 
+.blue_text:hover,  .blue_text:active{
+    color: var(--pink);
+}
+
 #red_text {
     color: rgb(235, 65, 50);
-}
-
-#blue_text {
-    color: var(--highlight) !important;
-}
-
-.card_content {
-    width: 80%;
-    margin:  10px auto;
 }
 
 .img-dp {
@@ -286,120 +395,26 @@ Tooltip
 }
 
 .highlight_text:hover,  .highlight_text:active{
-    color: rgb(253, 135, 204);
-}
-
-.stack_list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-.stack_list li {
-    position: relative;
-    left: -3px;
-    margin-right: 15px;
-    font-size: 60px;
-    color: var(--highlight);
-    transition: all 0.3s ease;
-    padding-bottom: 12px;
-}
-
-.stack_list li:hover, .stack_list li:active {
-    color: rgb(253, 113, 196);
-}
-
-.card_stack_list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.card_stack_list li {
-    position: relative;
-    left: -3px;
-    margin-right: 15px;
-    font-size: 16px;
-    color: rgb(220, 220, 220);
-    transition: all 0.3s ease;
-}
-
-.card_stack_list li:hover, .card_stack_list li:active {
-    color: var(--highlight);
+    color: var(--pink);
 }
 
 
-@media (min-width: 320px) and (max-width: 700px) {
-  
-    .talk_list {
-        border: none;
-    }
-    
-    .talk_list a {
-        padding-left: 0px;
-        margin-left: 0px;
-    }
-
-    .talk_list a:hover, .talk_list a:active{
-        border-left: 2px solid transparent;
-        border-bottom: 2px solid transparent;
-    }
-
-    .img-dp {
-        margin-top: -20px;
-    }
-}
-
-
-  /*------- Scrollbar --------------*/
-  body::-webkit-scrollbar {
+/*------- Scrollbar --------------*/
+body::-webkit-scrollbar {
     width: 0.25rem !important;
-  }
+}
   
-  body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     background: #1e1e24;
-  }
+}
   
-  body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background: var(--highlight) !important;
     border-radius: 50px;
-  }
-
-.project_link {
-      color: white;
-      font-weight: 600;
-      padding: 6px 10px 6px 15px;
-      background-color: #0a0b0f;
-      border-radius: 5px;
-      transition: all 0.2s ease;
-      cursor: pointer;
-      position: relative;
-      bottom: -25px;
-  }
-
-.project_link i {
-      font-size: 16px;
-  }
-
-.project_link:hover, .project_link:active {
-      background-color: #0a1327;
-      color: white;
-}
-
-#project_list {
-      position: relative;
-      top: -50px;
 }
 
 .img-fluid {
       border-radius: 4px;
-}
-
-.go_right {
-      float: right;
-      font-size: 11px;
-      border-bottom: 2px solid rgb(253, 113, 196);
 }
 
 /*article css*/
