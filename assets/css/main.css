@@ -84,25 +84,6 @@ body {
     margin-bottom: 15px;
 }
 
-.nomob {
-    display: none;
-}
-
-.nodesk {
-    display: inline-block;
-}
-
-@media (min-width: 600px) and (orientation:landscape) {
-
-    .nomob {
-        display: block;
-    }
-
-    .nodesk {
-        display: none;
-    }
-}
-
 .background_blue {
     background-color: #000022 !important;
 }
@@ -110,84 +91,6 @@ body {
 .about_title_track{
     font-size: 26px;
     color: #5596e0;
-}
-
-#notice_banner
-{
-    background-color:rgb(32, 101, 204);
-    color:white;
-    font-size:14px;
-    padding:5px;
-    text-align:center;
-    
-}
-
-.page-header {
-    opacity: 1;
-}
-
-.texter,
-.navbar-toggler-icon {
-    color: rgb(243, 243, 243) !important;
-}
-
-.navbar-transparent .logo,
-.navbar-transparent .logo span {
-    /*display: none;*/
-    color: transparent !important;
-}
-
-#joinbtn {
-    background-color: rgb(83, 109, 254);
-    margin: 5px;
-}
-
-.logo {
-    color: rgb(83, 109, 254);
-    font-weight: 500;
-    font-size: 16px;
-    vertical-align: middle;
-}
-
-#fb {
-    padding-left: 13px;
-    padding-right: 13px;
-}
-
-#pro {
-    padding-left: 11px;
-    padding-right: 11px;
-}
-
-.main-raised {
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-.navbar-toggler-icon {
-    color: #f0f0f0;
-}
-
-.navbar.fixed-top {
-    border-radius: 0;
-    padding: 0 !important;
-}
-
-#header-text {
-    cursor: pointer;
-}
-
-#hometop-container {
-    text-align: center;
-    position: absolute;
-    top: 52%;
-    transform: translateY(-50%);
-    z-index:1000;
-}
-
-#top_row
-{
-    background-color:black;
 }
 
 .nav-link{
@@ -203,30 +106,6 @@ body {
 .description
 {
     color: #f0f0f0;
-}
-
-.icon
-{
-    font-size:30px;
-    background:#333232;
-    color:white;
-    padding:8px;
-    border-radius:50px;
-    margin:4px;
-    padding-left:16px;
-    padding-right:16px;
-
-}
-
-#details_redirect
-{
-    font-size: 16px;
-    color:rgb(0, 102, 255);
-    transition: 0.3s ease;
-}
-
-#details_redirect:hover{
-    color:rgb(253, 135, 204);
 }
 
 /* ==========================================================================
@@ -318,11 +197,6 @@ Footer
     margin: 0px;
   }
   
-  .coming-soon {
-    padding-top: 15%;
-    padding-bottom: 10%;
-  }
-  
   @media (max-width: 992px) {
     #footer .col-lg-9 {
       text-align: left;
@@ -361,11 +235,7 @@ Footer
       display: block;
       padding-top: 5px;
     }
-  
-    .coming-soon {
-      padding-top: 35%;
-      padding-bottom: 20%;
-    }
+
   }
   
   #footer i {
@@ -578,7 +448,7 @@ ul {
     border-radius: 50px;
   }
 
-  .project_link {
+.project_link {
       color: white;
       font-weight: 600;
       padding: 6px 10px 6px 15px;
@@ -589,45 +459,33 @@ ul {
       position: relative;
       bottom: -25px;
   }
-  .project_link i {
+
+.project_link i {
       font-size: 16px;
   }
 
-  .project_link:hover, .project_link:active {
+.project_link:hover, .project_link:active {
       background-color: #0a1327;
       color: white;
   }
 
-  .blog_list {
+.blog_list {
     border-left: 1px solid rgb(19, 30, 49);
   }
 
-  #project_list {
+#project_list {
       position: relative;
       top: -50px;
   }
 
-  .img-fluid {
+.img-fluid {
       border-radius: 4px;
   }
 
-  .go_right {
+.go_right {
       float: right;
       font-size: 11px;
       border-bottom: 2px solid rgb(253, 113, 196);
-  }
-
-  .notes_text {
-      padding-left: unset;
-      border: unset;
-      border-bottom: 2px solid rgb(253, 113, 196);
-      cursor: pointer;
-      color: white;
-      transition: all 0.3s ease;
-  }
-
-  .notes_text:hover {
-      color: #5596e0;
   }
 
 /*article css*/
