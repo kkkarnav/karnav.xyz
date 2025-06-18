@@ -51,6 +51,10 @@ body {
     font-family: "Font Awesome 6 Brands" !important;
 }
 
+/* ==========================================================================
+Landing Page
+========================================================================== */
+
 .main {
     width: 100%;
     margin-left: 0px;
@@ -66,8 +70,7 @@ body {
     text-align: left;
 }
 
-@media (max-width: 576px) {
-
+@media (max-width: 768px) {
     .landing {
         text-align: center;
     }
@@ -108,6 +111,67 @@ body {
     color: #f0f0f0;
 }
 
+
+/* ==========================================================================
+Social Icons
+========================================================================== */
+
+.social_list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.social_list li {
+    position: relative;
+    left: -3px;
+    margin-right: 15px;
+    font-size: 27px;
+    color: #5596e0;
+    transition: all 0.3s ease;
+}
+
+.social_list li:hover, .social_list li:active {
+    color: rgb(253, 113, 196);
+}
+
+@media (max-width: 768px) {
+    .social_list {
+        justify-content: center;
+    }
+}
+
+
+/* ==========================================================================
+Writing/Talks/Teaching Lists
+========================================================================== */
+
+ul {
+    padding-left: unset;
+}
+
+.talk_list {
+    list-style-type:none;
+    border-left: 1px solid #131e31;
+}
+
+.talk_list a {
+    border-left: 2px solid transparent;
+    padding-left: 30px;
+    font-size: 0.9em;
+}
+
+.talk_list p {
+    color: #5596e0;
+    font-size: 0.8em;
+}
+
+.talk_list a:hover, .talk_list a:active{
+    border-left: 2px solid rgb(253, 113, 196);
+    border-bottom: 2px solid transparent;
+}
+
 /* ==========================================================================
 Footer
 ========================================================================== */
@@ -128,119 +192,24 @@ Footer
         padding: 8% 10% 8% 10%;
     }
 }
-
   
-#footer a:link {
-    text-decoration: none;
+#footer span {
+    margin: 0px 50px 0px 0px;
 }
   
-  #footer .fa {
-    font-size: 20px;
-    margin-left: 10px;
-  }
-  
-  #footer span {
-    margin: 0px 50px 0px 0px;
-  }
-  
-  #footer a:active {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  #footer .share-social {
-    display: inline-block;
-    margin-left: -5px;
-  }
-  
-  #footer .share-social span {
-    font-size: 16px;
-  }
-  
-  #footer p a:link {
+#footer p a:link {
     margin: 5px;
     padding: 5px;
-  }
+}
   
-  #footer span b:first-child {
+#footer span b:first-child {
     display: inline-block;
     padding-bottom: 10px;
-  }
-  
-  #footer img {
-    height: 24px;
-    width: auto;
-  }
-  
-  #footer .col-lg-9 {
-    text-align: right;
-  }
-  
-  #social_button {
-    padding-top: 5px;
-    font-weight: 600;
-  }
-  
-  #footer #top-button {
-    position: relative;
-    float: right;
-    right: 0px;
-    padding: 25px 25px 22.5px 20px;
-  
-    margin: -6px 0px 0px 0px;
-    color: inherit;
-    z-index: 999;
-  }
-  
-  #footer .hide-bar {
-    padding: 0px;
-    margin: 0px;
-  }
-  
-  @media (max-width: 992px) {
-    #footer .col-lg-9 {
-      text-align: left;
-    }
-  
-    #footer .footer-details {
-      padding-bottom: 15px;
-    }
-  
-    #footer .share-social span {
-      font-size: 12px;
-    }
-  
-    #footer .fa {
-      font-size: 16px;
-    }
-  
-    #footer #top-button {
-      padding: 63px 20px 57px 20px;
-      margin-top: -6.8px;
-    }
-  
-    #footer #top-button .fa {
-      font-size: 20px;
-    }
-  
-    #footer .copyright {
-      padding-top: 10px;
-    }
-  
-    #footer .hide-bar {
-      visibility: hidden;
-    }
-  
-    #footer #dev-credits {
-      display: block;
-      padding-top: 5px;
-    }
+}
 
-  }
-  
-  #footer i {
-    font-size: 18px;
-  }
+#footer i {
+    font-size: 0.7em;
+}
   
 
 /* ==========================================================================
@@ -290,38 +259,6 @@ Tooltip
     color: #5596e0 !important;
 }
 
-/* ==========================================================================
-Other Pages
-========================================================================== */
-
-ul {
-    padding-left: unset;
-}
-
-#section_holder
-{
-    width:50%;
-}
-
-
-.talk_list {
-    list-style-type:none;
-}
-
-.talk_list p {
-    color: #5596e0;
-}
-
-.talk_list a{
-    border-left: 2px solid transparent;
-    padding-left: 30px;
-}
-
-.talk_list a:hover, .talk_list a:active{
-    border-left: 2px solid rgb(253, 113, 196);
-    border-bottom: 2px solid transparent;
-}
-
 .card_content {
     width: 80%;
     margin:  10px auto;
@@ -343,32 +280,6 @@ ul {
 
 .highlight_text:hover,  .highlight_text:active{
     color: rgb(253, 135, 204);
-}
-
-.social_list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-.social_list li {
-    position: relative;
-    left: -3px;
-    margin-right: 15px;
-    font-size: 27px;
-    color: #5596e0;
-    transition: all 0.3s ease;
-}
-
-.social_list li:hover, .social_list li:active {
-    color: rgb(253, 113, 196);
-}
-
-@media (max-width: 700px) {
-    .social_list {
-        justify-content: center;
-    }
 }
 
 .stack_list {
@@ -414,22 +325,22 @@ ul {
 
 @media (min-width: 320px) and (max-width: 700px) {
   
+    .talk_list {
+        border: none;
+    }
+    
     .talk_list a {
         padding-left: 0px;
         margin-left: 0px;
     }
 
-    .img-dp {
-        margin-top: -20px;
-    }
-    
-    .blog_list {
-        border: none;
-    }
-
     .talk_list a:hover, .talk_list a:active{
         border-left: 2px solid transparent;
         border-bottom: 2px solid transparent;
+    }
+
+    .img-dp {
+        margin-top: -20px;
     }
 }
 
@@ -467,26 +378,22 @@ ul {
 .project_link:hover, .project_link:active {
       background-color: #0a1327;
       color: white;
-  }
-
-.blog_list {
-    border-left: 1px solid rgb(19, 30, 49);
-  }
+}
 
 #project_list {
       position: relative;
       top: -50px;
-  }
+}
 
 .img-fluid {
       border-radius: 4px;
-  }
+}
 
 .go_right {
       float: right;
       font-size: 11px;
       border-bottom: 2px solid rgb(253, 113, 196);
-  }
+}
 
 /*article css*/
 #scrolly {
