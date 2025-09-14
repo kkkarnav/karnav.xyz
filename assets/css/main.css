@@ -54,7 +54,10 @@ body {
 .mono .card_stack_list * {
     font-family: "devicon" !important;
 }
-.mono .fas * {
+.mono .fas {
+    font-family: "Font Awesome 6 Free" !important;
+}
+.mono .fab {
     font-family: "Font Awesome 6 Brands" !important;
 }
 
@@ -247,7 +250,7 @@ Project Cards
 }
 
 .project_link i {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .project_link:hover, .project_link:active {
